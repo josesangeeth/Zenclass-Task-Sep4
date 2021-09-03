@@ -17,7 +17,7 @@ When setting the style for several link states, there are some order rules:
 2. a:active MUST come after a:hover
 
 example :
-
+/*
 <html>
 <head>
 <style>
@@ -43,4 +43,4 @@ a:hover, a:active {
 
 </body>
 </html>
-
+*/
