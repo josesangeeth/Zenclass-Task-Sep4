@@ -16,11 +16,7 @@ When setting the style for several link states, there are some order rules:
 1. a:hover MUST come after a:link and a:visited
 2. a:active MUST come after a:hover
 
-example :
-/*
-<html>
-<head>
-<style>
+example: 
 a:link, a:visited {
   background-color: #f44336;
   color: white;
@@ -33,14 +29,4 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: red;
 }
-</style>
-</head>
-<body>
 
-<h2>Link Button</h2>
-<p>A link styled as a button:</p>
-<a href="default.asp" target="_blank">This is a link</a>
-
-</body>
-</html>
-*/
